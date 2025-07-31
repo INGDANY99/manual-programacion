@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript - Manual de Programación</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>JavaScript</h1>
+    <p>Representado por Nas - Versátil, dinámico y poderoso en la web</p>
+  </header>
+
+  <main class="contenido">
+
+    <!-- Condicionales -->
+    <section>
+      <h2>Condicionales en JavaScript</h2>
+      <p>JavaScript permite tomar decisiones con <code>if</code>, <code>else</code> y <code>switch</code>.</p>
+      <pre><code>
+let edad = 20;
+
+if (edad >= 18) {
+  console.log("Eres mayor de edad");
+} else {
+  console.log("Eres menor de edad");
+}
+
+// Switch
+let dia = 3;
+switch (dia) {
+  case 1:
+    console.log("Lunes");
+    break;
+  case 2:
+    console.log("Martes");
+    break;
+  default:
+    console.log("Otro día");
+}
+      </code></pre>
+    </section>
+
+    <!-- Ciclos -->
+    <section>
+      <h2>Ciclos en JavaScript</h2>
+      <p>Los bucles permiten repetir tareas.</p>
+      <pre><code>
+// For
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+// While
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+      </code></pre>
+    </section>
+
+    <!-- Funciones -->
+    <section>
+      <h2>Funciones en JavaScript</h2>
+      <p>JavaScript permite declarar funciones para reutilizar código.</p>
+      <pre><code>
+function saludar(nombre) {
+  console.log("Hola, " + nombre);
+}
+
+saludar("Nas");
+      </code></pre>
+    </section>
+
+    <!-- Video -->
+    <section>
+      <h2>Video explicativo</h2>
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/z95mZVUcJ-E"
+        title="Curso JavaScript desde cero"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    </section>
+
+    <!-- Recursos -->
+    <section>
+      <h2>Recursos adicionales</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">JavaScript en MDN</a></li>
+        <li><a href="https://www.w3schools.com/js/" target="_blank">JavaScript en W3Schools</a></li>
+        <li><a href="https://www.youtube.com/watch?v=RQ1fzM88CqE" target="_blank">Curso JavaScript - Fazt</a></li>
+      </ul>
+    </section>
+
+    <!-- Botón volver -->
+    <div style="margin-top: 40px; text-align: center;">
+      <a href="index.html" style="padding: 10px 20px; background-color: #ffe082; color: #000; border-radius: 8px; text-decoration: none; font-weight: bold;">
+        ⬅ Volver al inicio
+      </a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Manual de Programación - Dani el lindo</p>
+  </footer>
+
+</body>
+</html>

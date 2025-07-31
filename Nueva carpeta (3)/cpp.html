@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C++ - Manual de Programación</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>C++</h1>
+    <p>Representado por Eminem - Potente, preciso y veloz</p>
+  </header>
+
+  <main class="contenido">
+
+    <!-- Condicionales -->
+    <section>
+      <h2>Condicionales en C++</h2>
+      <p>Permiten ejecutar bloques de código según condiciones lógicas.</p>
+      <pre><code>
+int edad = 18;
+
+if (edad >= 18) {
+    std::cout << "Eres mayor de edad" << std::endl;
+} else {
+    std::cout << "Eres menor de edad" << std::endl;
+}
+      </code></pre>
+    </section>
+
+    <!-- Ciclos -->
+    <section>
+      <h2>Ciclos en C++</h2>
+      <p>Usamos <code>for</code>, <code>while</code> y <code>do-while</code> para repetir instrucciones.</p>
+      <pre><code>
+// For
+for (int i = 0; i < 5; i++) {
+    std::cout << i << std::endl;
+}
+
+// While
+int i = 0;
+while (i < 5) {
+    std::cout << i << std::endl;
+    i++;
+}
+
+// Do-while
+int j = 0;
+do {
+    std::cout << j << std::endl;
+    j++;
+} while (j < 5);
+      </code></pre>
+    </section>
+
+    <!-- Funciones -->
+    <section>
+      <h2>Funciones en C++</h2>
+      <p>Las funciones permiten estructurar el código y reutilizarlo fácilmente.</p>
+      <pre><code>
+#include &lt;iostream&gt;
+
+void saludar(std::string nombre) {
+    std::cout << "Hola, " << nombre << std::endl;
+}
+
+int main() {
+    saludar("Eminem");
+    return 0;
+}
+      </code></pre>
+    </section>
+
+    <!-- Video -->
+    <section>
+      <h2>Video explicativo</h2>
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/jS6wb263CIM"
+        title="Curso C++ desde cero"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    </section>
+
+    <!-- Recursos -->
+    <section>
+      <h2>Recursos adicionales</h2>
+      <ul>
+        <li><a href="https://www.w3schools.com/cpp/" target="_blank">C++ en W3Schools</a></li>
+        <li><a href="https://cplusplus.com/doc/tutorial/" target="_blank">Tutorial oficial Cplusplus</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Rub-JsjMhWY" target="_blank">Curso completo de C++ en español</a></li>
+      </ul>
+    </section>
+
+    <!-- Botón regreso -->
+    <div style="margin-top: 40px; text-align: center;">
+      <a href="index.html" style="padding: 10px 20px; background-color: #ffe082; color: #000; border-radius: 8px; text-decoration: none; font-weight: bold;">
+        ⬅ Volver al inicio
+      </a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Manual de Programación - Dani el lindo</p>
+  </footer>
+
+</body>
+</html>
